@@ -1,0 +1,66 @@
+%--------------------
+% Packages
+% -------------------
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+%\usepackage{gentium}
+\usepackage{mathptmx} % Use Times Font
+
+
+\usepackage[pdftex]{graphicx} % Required for including pictures
+\usepackage[swedish]{babel} % Swedish translations
+\usepackage[pdftex,linkcolor=black,pdfborder={0 0 0}]{hyperref} % Format links for pdf
+\usepackage{calc} % To reset the counter in the document after title page
+\usepackage{enumitem} % Includes lists
+
+\frenchspacing % No double spacing between sentences
+\linespread{1.2} % Set linespace
+\usepackage[a4paper, lmargin=0.1666\paperwidth, rmargin=0.1666\paperwidth, tmargin=0.1111\paperheight, bmargin=0.1111\paperheight]{geometry} %margins
+%\usepackage{parskip}
+
+\usepackage[all]{nowidow} % Tries to remove widows
+\usepackage[protrusion=true,expansion=true]{microtype} % Improves typography, load after fontpackage is selected
+
+\usepackage{amsmath}
+\usepackage{url}
+
+
+%-----------------------
+% Set pdf information and add title, fill in the fields
+%-----------------------
+\hypersetup{ 	
+pdfsubject = {Diagnostic Assignments},
+pdftitle = {},
+pdfauthor = {Hiromu Sugiyama}
+}
+
+%-----------------------
+% Begin document
+%-----------------------
+\begin{document} %All text i dokumentet hamnar mellan dessa taggar, allt ovanför är formatering av dokumentet
+
+\section*{Diagnostic Assignment}
+
+\subsection*{Paper (Abstract)}
+\textbf{Title:} Quadratic voting in the wild: real people, real votes \\
+\textbf{URL:} \url{https://link.springer.com/article/10.1007/s11127-017-0416-1}
+
+\paragraph{Cited:} Since their introduction in 1932, Likert and other continuous, independent rating scales have become the de facto toolset for survey research. Scholars have raised significant reliability and validity problems with these types of scales, and alternative methods for capturing perceptions and preferences have gained traction within specific domains. In this paper, we evaluate a new, broadly applicable approach to opinion measurement based on quadratic voting (QV), a method in which respondents express preferences by ‘buying’ votes for options using a fixed budget from which they pay quadratic prices for votes. Comparable QV-based and Likert-based survey instruments designed by Collective Decision Engines LLC were evaluated experimentally by assigning potential respondents randomly to one or the other method. Using a host of metrics, including respondent engagement and process-based metrics, we provide some initial evidence that the QV-based instrument provides a clearer measure of the preferences of the most intensely motivated respondents than the Likert-based instrument does. We consider the implications for survey satisficing, a key threat to the continued value of survey research, and discuss the mechanisms by which QV differentiates itself from Likert-based scales, thus establishing QV as a promising alternative survey tool for political and commercial research. We also explore key design issues within QV-based surveys to extend these promising results.
+
+
+\subsection*{Contributions of This Paper}
+\noindent This paper makes a significant contribution to advancing the concept of commensurability in the context of voting mechanisms. As the authors state, the study \textit{``provides some initial evidence that the QV-based instrument provides a clearer measure of the preferences of the most intensely motivated respondents than the Likert-based instrument does.''} The primary contribution lies in establishing an empirical link between the theoretical Quadratic Voting (QV) mechanism and its practical application. Specifically, the paper bridges the theoretical framework, as outlined in Weyl (2017), with empirical evidence.
+
+\noindent The model assumes a symmetric distribution of participant preferences: 
+\begin{quote}
+    \textit{``We consider an independent symmetric private values environment with $N$ voters $i = 1, \dots, N$. Each voter $i$ is characterized by a value, $u_i$; these values are drawn independently from a continuous probability distribution $F$ with $C^\infty$ smoothness.''}
+\end{quote}
+\noindent The empirical findings align with this theoretical assumption, as strong ideological differences—evident in the skewed and multimodal distributions among Likert-only participants—tend to shift toward more balanced, symmetric, quasi-normal distributions under the QV mechanism.
+
+\noindent The research also incorporates the assumption of sealed valuations, wherein each individual knows their own value but is unaware of the values of the other $N-1$ voters. However, the sampling distribution $F$ is common knowledge. This design is mirrored in the empirical setup, as participants do not know the types of other voters.
+
+\noindent Regarding commensurability, the paper explores scenarios that allow for collusion, uncertainty about the value distribution, and deviations from perfect rationality and consequentialism among voters. In many of these contexts, QV outperforms baseline mechanisms and incurs minimal welfare loss, especially when compared to one-person-one-vote (1p1v) systems. The findings suggest that QV's design, which ensures that the marginal cost of voting is proportional to the number of votes purchased, creates an efficient voting space where votes are proportional to value. This incentivizes truthful preference reporting and strengthens the connection between the theoretical and empirical aspects of QV, thereby solidifying its commensurability.
+
+
+\end{document}
