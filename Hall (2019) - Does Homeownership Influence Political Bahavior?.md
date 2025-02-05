@@ -27,16 +27,14 @@ The research stems from the inquiry on whether the formation of political belief
 
 #### Measurement Validity
 **Interpretation**: 
-- aaa
-    
-----
-    - Local issues clearly represents the specific policy issue
+- The merged data (Adiministrative voter files fo Ohio and North Carolina + Information on Property Ownership collected county-by-county) meaninfully represents the effect of homeownership on increment in participant rate
 
-**Argument**: Provide justification for the measurement choices.
-- aaa
-
-----
-- In Ohio, many questions of local policy are voted on in what are essentially public referendums or ballot initiatives, called local issues.
+**Argument**:
+- These variables are direct measure of the features of interest, with the care for three key issues.
+    1. Mismatch for voter and a homeownership attenuates: datasets are high quality, only use information on name, street number, and street name to link records (less false positive); 96% of entries in the Ohio voter file are unique (less duplicate); Appendix A.1
+    2. Don't observe individuals in Ohio purged prior to 2017: Non-homeowners are likely to be purged -> slightly overestimate turnout for non-homeowners -> underestimate the turnout boost from homeownership (Section 3.5)
+    3. "Deadwood," data on move into/out of states Ohio home-owners/sellers: Overestimate the effect of homeonwershp in both cases; move-in voter whom they had been long time voter and move-out voter who continues voting, since impute their turnout as zero after they move
+    -> To account to 2/3, adjustments were made (written in Confidence Building) 
 
 #### Substantive Identification
 **Assumption**:
@@ -45,6 +43,7 @@ The research stems from the inquiry on whether the formation of political belief
 2. Individual *does not* select into homeownership for many time varying, unobservable reason
 3. The decision of homeownership does not stem from those point their life whne they are making other changes
 4. Selection observables: the rate of purge between homeowners and non-owners are equal
+
 **Arguments**: Critically evaluate the validity of these assumptions.
 - (PT) Add leads of the homeowner variable, to see evidence of pre-trending; found substantively very small coefficient on these leads, and the coefficient on the main effect for homeowner remains similar in magnitude
 - (PT) Redo results using country-by-year fixed effects; homeowner's counterfactual trends are computed using only individuals who did not buy a home but live in a same county
@@ -58,12 +57,12 @@ The research stems from the inquiry on whether the formation of political belief
         1. estimate the effect separately for each year of birth; 25 yr old > 55 yr old by 4 percentage point --> the estimate can be a function of changing roles in early adulthood 
         2. rely on infromation info about the type of properties (i.e. Single Family Residence); sort out a potential individual with the intention of planning for children
     - -> evidence suggest that dult roles and other life events could explain some, but not all of the effect of becoming a homeowner
-4. non-homeowners are likely to be purged -> slightly overestimate turnout for non-homeowners -> underestimate the turnout boost from homeownership
+
 #### Confidence Building
-- To combat the overestimation on the effect of homeownership where the paper impute turnout equal to zero for those whose age made them eligible to vote but did not turn out (e.g. just moved in/out to/from different states), done robustness check
- - Adjustment 1: drop individuals whose registeration year >= year of their home purchase (potential moved in)
- - Adjustment 2: set turnout to missing for individuals after they sell their home (pontential moved out)
- - Result were largaer than the original result in Table 1; out-of-state mover is very small fraction of the dataset
+To combat the overestimation on the effect of homeownership where the paper impute turnout equal to zero for those whose age made them eligible to vote but did not turn out (e.g. just moved in/out to/from different states), done robustness check
+- Adjustment 1: drop individuals whose registeration year >= year of their home purchase (potential moved in)
+- Adjustment 2: set turnout to missing for individuals after they sell their home (pontential moved out)
+- Result were largaer than the original result in Table 1; out-of-state mover is very small fraction of the dataset
 
 #### 2. Commensurability
 
