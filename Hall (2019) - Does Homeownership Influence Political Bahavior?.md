@@ -16,7 +16,7 @@ The research stems from the inquiry on whether the formation of political belief
 **Implication**: N/A
 
 #### Empirical/Elements of Research Design (ERD)
-**Targets of Research Design**: voter turnout/participation difference between voter with and without homeownership
+**Targets of Research Design**: Voter turnout/participation difference between voter with and without homeownership
 #### Empirical Strategy
 **Estimand**: Overall effect of buying a home along with any correlated changes that individuals make when they become homeowners that also affects political participation
 
@@ -46,7 +46,7 @@ The research stems from the inquiry on whether the formation of political belief
 3. The decision of homeownership does not stem from those point their life when they are making other changes
 4. Selection observables: the rate of purge between homeowners and non-owners are equal
 
-**Arguments**: Critically evaluate the validity of these assumptions.
+**Arguments**:
 - (PT) Add leads of the homeowner variable, to see evidence of pre-trending; found substantively very small coefficient on these leads, and the coefficient on the main effect for homeowner remains similar in magnitude
 - (PT) Redo results using country-by-year fixed effects; homeowner's counterfactual trends are computed using only individuals who did not buy a home but live in a same county
 - (PT) Estimate a version of DID that makes comparisons only among the set of people who purchase a home at some point; everyone in this sample archieves the wealth necessary to be a homeowner

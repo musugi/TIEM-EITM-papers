@@ -32,48 +32,54 @@
 一旦以下でやってみる。（後で各欄の説明書きをアプデする）
 
 ```
-#### Title:
-#### Author:
-#### Link:
+#### Title: 
+#### Author:  
+#### Link: 
 
 #### 0. Introduction
-Briefly introduce the topic, its relevance, and the key literature you will review.
+
 
 #### 1. Elements of Framework
-##### Theory
-- **Targets of Model**: Describe the theoretical target that the model aims to represent.
-- **Similarities of Model to the Target**: Discuss how well the model aligns with the theoretical target.
-- **Model**: Outline the key aspects of the model under discussion.
-- **Implication**: Explain the implications derived from the model.
+#### Theory
+**Targets of Model**: 
+
+**Similarities of Model to the Target**: N/A
+
+**Model**: N/A
+
+**Implication**: N/A
 
 #### Empirical/Elements of Research Design (ERD)
-##### Empirical Strategy
-- **Estimand**: Define the parameter of interest.
-- **Data**: Describe the dataset used in the study.
-- **Statistical Procedure**: Explain the statistical methods applied.
+**Targets of Research Design**: 
+#### Empirical Strategy
+**Estimand**: 
 
-##### Measurement Validity
-- **Interpretation**: Discuss how measurements relate to theoretical constructs.
-- **Argument**: Provide justification for the measurement choices.
+**Data**: 
 
-##### Substantive Identification
-- **Assumption**: List the key assumptions underlying the empirical analysis.
-- **Arguments**: Critically evaluate the validity of these assumptions.
+**Statistical Procedure**: 
 
-##### Confidence Building
-Discuss robustness checks and alternative specifications to support findings.
+#### Measurement Validity
+**Interpretation**: 
 
-## 2. Commensurability
-Discuss how different models and empirical strategies can be compared.
+**Argument**:
 
-## 3. Reinterpretation
-Provide alternative interpretations of the findings.
+#### Substantive Identification
+**Assumption**:
 
-## 4. Elaborating
-Expand on how the literature review contributes to future research.
+**Arguments**:
 
-## References
-List all references in a consistent and proper citation style.
+#### Confidence Building
+
+
+#### 2. Commensurability
+
+#### 3. Reinterpretation
+
+#### 4. Elaborating
+
+#### References
+
+#### Memo
 ```
 
 ## 参考
