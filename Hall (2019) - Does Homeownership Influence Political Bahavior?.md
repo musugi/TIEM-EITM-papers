@@ -8,15 +8,20 @@ The research stems from the inquiry on whether the formation of political belief
 #### 1. Elements of Framework
 #### Theory
 **Targets of Model**: 
+
 **Similarities of Model to the Target**: N/A
+
 **Model**: N/A
+
 **Implication**: N/A
 
 #### Empirical/Elements of Research Design (ERD)
 **Targets of Research Design**: voter turnout/participation difference between voter with and without homeownership
 #### Empirical Strategy
 **Estimand**: Overall effect of buying a home along with any correlated changes that individuals make when they become homeowners that also affects political participation
+
 **Data**: Administrative data on more than 18 million voters in Ohio and North Carolina with deed-level data on property ownership.
+
 **Statistical Procedure**: Four versions (Orders follow from Tables)
 - Difference-in-difference design with individual/year fixed effects (\gammma_i, \delta) for full sample
 - Difference-in-difference design with home-value-by-year fiexed effect for only homeowners
@@ -24,8 +29,7 @@ The research stems from the inquiry on whether the formation of political belief
 - (Stronger) DID design: synthetic matching approach where exactly matching individuals based on their turnout in four pre-treatment electoral cycles
 
 #### Measurement Validity
-**Interpretation**: 
-- The merged data (Adiministrative voter files fo Ohio and North Carolina + Information on Property Ownership collected county-by-county) meaninfully represents the effect of homeownership on increment in participant rate
+**Interpretation**: The merged data (Adiministrative voter files fo Ohio and North Carolina + Information on Property Ownership collected county-by-county) meaninfully represents the effect of homeownership on increment in participant rate
 
 **Argument**:
 - These variables are direct measure of the features of interest, with the care for three key issues.
