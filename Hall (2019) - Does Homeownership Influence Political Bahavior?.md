@@ -17,13 +17,11 @@ The research stems from the inquiry on whether the formation of political belief
 #### Empirical Strategy
 **Estimand**: Overall effect of buying a home along with any correlated changes that individuals make when they become homeowners that also affects political participation
 **Data**: Administrative data on more than 18 million voters in Ohio and North Carolina with deed-level data on property ownership.
-- aaa
-----
-- Data on local issues, indicates what types of issues were voted on in which political units for each year
-
-**Statistical Procedure**: Two versions
-- Individual level difference-in-difference design: compare individuals who buy homes of similar prices at different times
-- Stronger DID design: synthetic matching approach where exactly matching individuals based on their turnout in four pre-treatment electoral cycles
+**Statistical Procedure**: Four versions (Orders follow from Tables)
+- Difference-in-difference design with individual/year fixed effects (\gammma_i, \delta) for full sample
+- Difference-in-difference design with home-value-by-year fiexed effect for only homeowners
+- Difference-in-difference design with individual/year fixed effects (\gammma_i, \delta) for only homeowners
+- (Stronger) DID design: synthetic matching approach where exactly matching individuals based on their turnout in four pre-treatment electoral cycles
 
 #### Measurement Validity
 **Interpretation**: 
@@ -41,7 +39,7 @@ The research stems from the inquiry on whether the formation of political belief
 1.  Parallel Trend (PT): changes in individuals' turnout behavior after purchasing a home at time *t* would be the same as changes in turnout behavior for individuals who did not purchase a home at time *t*.
     - Deduct concerns that the individuals chose to purchase homes in times when they become wealthier
 2. Individual *does not* select into homeownership for many time varying, unobservable reason
-3. The decision of homeownership does not stem from those point their life whne they are making other changes
+3. The decision of homeownership does not stem from those point their life when they are making other changes
 4. Selection observables: the rate of purge between homeowners and non-owners are equal
 
 **Arguments**: Critically evaluate the validity of these assumptions.
@@ -53,16 +51,16 @@ The research stems from the inquiry on whether the formation of political belief
     - dataset is large and outcome variable is binary
 3. Use variation in the size of the effect to get at the underlying mechanism of the effect; direct link between being homeowner and acting to protect one's financial interest in one's home
     - changes in adult roles; bias our estimates upward if such leads individuals to be more likely to buy a home and become more invested in politics
-    - -> provide suggestive empirical evidence;
-        1. estimate the effect separately for each year of birth; 25 yr old > 55 yr old by 4 percentage point --> the estimate can be a function of changing roles in early adulthood 
-        2. rely on infromation info about the type of properties (i.e. Single Family Residence); sort out a potential individual with the intention of planning for children
-    - -> evidence suggest that dult roles and other life events could explain some, but not all of the effect of becoming a homeowner
+    -> provide suggestive empirical evidence;
+    1. estimate the effect separately for each year of birth; 25 yr old > 55 yr old by 4 percentage point --> the estimate can be a function of changing roles in early adulthood 
+    2. rely on infromation info about the type of properties (i.e. Single Family Residence); sort out a potential individual with the intention of planning for children
+    -> evidence suggest that dult roles and other life events could explain some, but not all of the effect of becoming a homeowner
 
 #### Confidence Building
 To combat the overestimation on the effect of homeownership where the paper impute turnout equal to zero for those whose age made them eligible to vote but did not turn out (e.g. just moved in/out to/from different states), done robustness check
 - Adjustment 1: drop individuals whose registeration year >= year of their home purchase (potential moved in)
 - Adjustment 2: set turnout to missing for individuals after they sell their home (pontential moved out)
-- Result were largaer than the original result in Table 1; out-of-state mover is very small fraction of the dataset
+- Result were larger than the original result in Table 1; out-of-state mover is very small fraction of the dataset
 
 #### 2. Commensurability
 
@@ -72,7 +70,7 @@ To combat the overestimation on the effect of homeownership where the paper impu
 
 #### 4. Elaborating
 #### Expand on how the literature review contributes to future research.
-- Multiplying Measures: two different DID designs to bolster Substantive Identification, mainly assumption of Parellel Trend
+- Multiplying Measures: four different DID designs to bolster Substantive Identification, mainly assumption of Parellel Trend
 
 #### References
 #### List all references in a consistent and proper citation style.
@@ -82,4 +80,3 @@ To combat the overestimation on the effect of homeownership where the paper impu
 -> homeownership causes a more general shift in individuals' attention
 - Is the "cemetries" vote lower salience for additional effect of homeownershiop on turnout? Suppose the government decides to build a new cemetries, it might affect their property value
 - The paper suggests links between homeownership and national elections; extends homevoter literature that suggests homeowners should be relatively indifferent to national politics
-- 
