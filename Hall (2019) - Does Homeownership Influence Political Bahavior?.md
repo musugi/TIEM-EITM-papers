@@ -1,6 +1,6 @@
-#### Title: Does Homeownership Influcence Political Behavior?
-#### Author: Andrew B. Hall, Jesse Yoder
-#### Link: https://www.andrewbenjaminhall.com/homeowner.pdf
+### Title: Does Homeownership Influcence Political Behavior?
+### Author: Andrew B. Hall, Jesse Yoder
+### Link: https://www.andrewbenjaminhall.com/homeowner.pdf
 
 #### 0. Introduction
 ##### The research stems from the inquiry on whether the formation of political beliefs and the decision on participating in the election come from personal economic circumstances. Hall thought this from the context of property ownership. 
@@ -8,22 +8,18 @@
 #### 1. Elements of Framework
 ##### Theory
 ##### - **Targets of Model**: 
--
-##### - **Similarities of Model to the Target**: Discuss how well the model aligns with the theoretical target.
-- 
-##### - **Model**: Outline the key aspects of the model under discussion.
-- 
-##### - **Implication**: Explain the implications derived from the model.
-- 
+##### - **Similarities of Model to the Target**: N/A
+##### - **Model**: N/A
+##### - **Implication**: N/A
 
 #### Empirical/Elements of Research Design (ERD)
-##### Targets of Research Design 
-- voter turnout/participation difference between voter with and without homeownership
+##### Targets of Research Design: voter turnout/participation difference between voter with and without homeownership
 ##### Empirical Strategy
-##### - **Estimand**: 
-- Overall effect of buying a home along with any correlated changes that individuals make when they become homeownerss that also affect political participation
+##### - **Estimand**: Overall effect of buying a home along with any correlated changes that individuals make when they become homeowners that also affects political participation
 ##### - **Data**: 
 - Administrative data on more than 18 million voters in Ohio and North Carolina with deed-level data on property ownership.
+----
+- Data on local issues, indicates what types of issues were voted on in which political units for each year
 ##### - **Statistical Procedure**: Two versions
 - Individual level difference-in-difference design: compare individuals who buy homes of similar prices at different times
 - Stronger DID design: synthetic matching approach where exactly matching individuals based on their turnout in four pre-treatment electoral cycles
@@ -31,7 +27,13 @@
 ##### Measurement Validity
 ##### - **Interpretation**: 
 
+----
+- Local issues clearly represents the specific policy issue
+
 ##### - **Argument**: Provide justification for the measurement choices.
+
+----
+- In Ohio, many questions of local policy are voted on in what are essentially public referendums or ballot initiatives, called local issues.
 
 ##### Substantive Identification
 ##### - **Assumption**:
@@ -77,4 +79,6 @@
 #### Memo
 - Found that (theory focuses on local policy) becoming a homeowner increases the propensity to participate in national elections.
 -> homeownership causes a more general shift in individuals' attention
+- Is the "cemetries" vote lower salience for additional effect of homeownershiop on turnout? Suppose the government decides to build a new cemetries, it might affect their property value
+- The paper suggests links between homeownership and national elections; extends homevoter literature that suggests homeowners should be relatively indifferent to national politics
 - 
