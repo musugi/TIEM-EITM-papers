@@ -68,6 +68,8 @@
 
 **Arguments**:
 
+#### Estimates
+
 #### Confidence Building
 
 
@@ -76,6 +78,8 @@
 #### 3. Reinterpretation
 
 #### 4. Elaborating
+
+#### 5. Distinguishing
 
 #### References
 
