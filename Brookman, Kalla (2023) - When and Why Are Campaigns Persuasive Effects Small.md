@@ -59,6 +59,7 @@
 #### 3. Reinterpretation
 
 #### 4. Elaborating
+- Elaboration on Priming theory: it suggests theories of priming cannot completely explain variation in campaign effects
 
 #### 5. Distinguishing
 - Distinguish between the informational/quasi-Bayesian interpretation and partisan intoxication 
@@ -66,3 +67,5 @@
 #### References
 
 #### Memo
+- The target for the research design is the campaign-like survey
+- 
